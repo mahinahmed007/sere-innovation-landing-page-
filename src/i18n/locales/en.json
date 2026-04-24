@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Hatch your own chicks on your farm",
+    "subtitle": "An affordable, easy-to-use smart incubator built for small poultry farmers.",
+    "cta": "Request Demo"
+  },
+  "navbar": {
+    "demo": "Request Demo"
+  },
+  "problem": {
+    "title": "The challenges farmers face",
+    "items": [
+      "Dependence on external hatcheries",
+      "High cost of getting chicks",
+      "Delays in hatching cycles",
+      "Limited control over farm operations"
+    ]
+},
+"solution": {
+    "title": "A simple solution for your farm",
+    "description": "Sere Innovations helps you hatch eggs directly on your farm using an easy-to-use smart incubator  no dependency on hatcheries."
+  },
+  "features": {
+    "title": "Designed for easy use",
+    "items": [
+      {
+        "title": "Automatic Temperature Control",
+        "desc": "Maintains the right heat for better hatching"
+      },
+      {
+        "title": "Humidity Control",
+        "desc": "Keeps the environment suitable for eggs"
+      },
+      {
+        "title": "Automatic Egg Turning",
+        "desc": "No need to manually rotate eggs"
+      },
+      {
+        "title": "Simple to Use",
+        "desc": "No technical knowledge required"
+      },
+      {
+        "title": "Affordable Setup",
+        "desc": "Designed to be cost-effective for farmers"
+      },
+       {
+        "title": "Low Power Consumption",
+        "desc": "Works efficiently even with limited electricity supply"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why this matters for your farm",
+    "items": [
+      "Get full control over your hatching process",
+      "Reduce dependency on hatcheries",
+      "Save money on every batch",
+      "Simplify your daily farm work",
+      "Increase your income potential",
+       "Better hatch success rate"
+
+    ]
+  }, "trust": {
+    "title": "Built for real farmers",
+    "items": [
+      "Designed based on real farm challenges",
+      "Simple and easy to operate",
+      "No technical knowledge required",
+      "Focused on practical use and reliability"
+    ]
+  },
+  "audience": {
+    "title": "Who is this for?",
+    "items": [
+      "Small poultry farmers",
+      "Rural and semi-urban farm owners",
+      "Agri-entrepreneurs",
+      "Beginners in poultry farming"
+    ]
+  },
+   "cta": {
+    "title": "Start hatching on your own farm today",
+    "subtitle": "Take control of your poultry operations with a simple and reliable solution.",
+    "button": "Request a Demo"
+  },
+   "footer": {
+    "brand": "Sere Innovations",
+    "contact": "Contact",
+    "phone": "+91 XXXXXXXX",
+    "email": "info@sereinnovations.com",
+    "tagline": "Helping farmers hatch their own future"
+  }
+  
+}
