@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "../assets/images/logo.png";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -18,9 +19,7 @@ export default function Navbar() {
 
                 {/* Logo */}
                 <a href="/">
-                    <img
-                        src="/src/assets/images/logo.png"
-                        alt="Sere Innovations"
+                    <img src={logo} alt="logo"
                         className="h-30 w-auto object-contain scale-125 md:scale-150 origin-left"
                     />
                 </a>

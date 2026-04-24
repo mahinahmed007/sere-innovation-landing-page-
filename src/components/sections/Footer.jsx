@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Phone, Mail } from "lucide-react";
+import logo from "../../assets/images/logo.png";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -13,11 +14,9 @@ export default function Footer() {
 
           {/* BRAND */}
           <div>
-            <img
-  src="/src/assets/images/logo.png"
-  alt="Sere Innovations"
-   className="h-30 w-auto object-contain scale-125 md:scale-150 "
-/>
+            <img src={logo} alt="logo"
+              className="h-30 w-auto object-contain scale-125 md:scale-150 origin-left"
+            />
             <p className="text-sm text-gray-400">
               {t("footer.tagline")}
             </p>

@@ -2,18 +2,17 @@ import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { motion } from "framer-motion";
+import hero1 from "../../assets/images/hero1.jpg";
+import hero2 from "../../assets/images/hero2.webp";
+import hero3 from "../../assets/images/hero3.webp";
+
 
 import "swiper/css";
 import "swiper/css/effect-fade";
 
 export default function Hero() {
     const { t } = useTranslation();
-
-    const slides = [
-        "/src/assets/images/hero1.jpg",
-        "/src/assets/images/hero2.webp",
-        "/src/assets/images/hero3.webp",
-    ];
+const slides = [hero1, hero2, hero3];
 
     return (
         <section className="w-full h-[85vh] md:h-[80vh] relative">
