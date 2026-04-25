@@ -36,7 +36,7 @@ export default function CTA() {
           whileHover={{ scale: 1.05 }}
           className="bg-white text-green-700 px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-100 transition"
         >
-          {t("cta.button")}
+         Talk to Our Team
         </motion.button>
 
         {/* MICRO TRUST LINE */}

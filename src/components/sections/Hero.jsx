@@ -49,7 +49,7 @@ const slides = [hero1, hero2, hero3];
                                 </p>
 
                                 {/* Heading */}
-                                <h1 className="text-5xl sm:text-3xl md:text-5xl font-bold mb-4 leading-tight px-2">
+                                <h1 className="text-4xl sm:text-3xl md:text-5xl font-bold mb-4 leading-tight px-2">
                                     {t("hero.title")}
                                 </h1>
 
@@ -80,7 +80,7 @@ const slides = [hero1, hero2, hero3];
                                     initial={{ opacity: 0, y: 50 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ delay: 1 }}
-                                    className="absolute bottom-24 left-1/2 -translate-x-1/2 md:left-20 md:translate-x-0 bg-white text-gray-800 p-4 md:p-5 rounded-xl shadow-lg max-w-xs md:max-w-sm w-[90%] md:w-auto"
+                                    className="absolute bottom-4 left-1/2 -translate-x-1/2 md:left-20 md:translate-x-0 bg-white text-gray-800 p-4 md:p-5 rounded-xl shadow-lg max-w-xs md:max-w-sm w-[90%] md:w-auto"
                                 >
                                     <p className="text-sm font-medium">
                                         Hatch eggs directly on your farm without depending on hatcheries.
